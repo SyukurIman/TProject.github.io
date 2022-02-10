@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+</IfModule>
+<IfModule mod_rewrite.c>
+   RewriteEngine on
+   RewriteRule ^.*/image/(.*)$ http://%{HTTP_HOST}/image/$1 [L,R=301]
+</IfModule>

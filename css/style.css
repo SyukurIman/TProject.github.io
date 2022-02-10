@@ -1,0 +1,203 @@
+.navbar-nav-right{
+    float: right;
+    margin-left: auto;
+}
+.card {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.col-6.left{
+    width: 65%;
+}
+
+body{
+    background-color: #F3F3F3;
+}
+
+footer{
+    padding: 15px;
+    background-color: #FFFFFF;
+}
+.col-6.right{
+    width: 35%;
+}
+.profile {
+    margin-top: 15px;
+}
+
+.w-100 {
+    padding: 15px;
+    height: 350px;
+}
+
+.card-img-top{
+    height: 150px;
+}
+
+.col-4{
+    margin-right: 6px;
+}
+
+.owl-item{
+    height: auto;
+    margin-right: 5px;
+}
+
+.item-owl.card.kata-mereka{
+    padding-top: 55px;
+    margin-top: 4em;
+    width: 93%;
+}
+
+.img-responsive{
+    position: absolute;
+    top: -4em;
+    left: 27%;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+.owl-theme .owl-controls {
+    margin: .5em 0 0 0em;
+}
+
+.modal-footer > *{
+    margin: 1px;
+    margin-top: 8px;
+}
+
+.modal-footer{
+    padding: 0.25rem;
+    margin-bottom: -10px;
+}
+
+.modal-content{
+   max-width: 400px;
+   margin: 15px; 
+}
+
+.img_profile{
+    border-radius: 50%;
+    width: 35px;
+    height: 31px;
+}
+
+.nav-item{
+    height: 40px;
+}
+
+.navbar-nav .dropdown-menu {
+    position: absolute;
+}
+
+.btn-check:focus + .btn-primary, .btn-primary:focus {
+    box-shadow: 0 0 0 .15rem rgba(49,132,253,.5);
+}
+
+.navbar-nav{
+    margin-bottom: 0px !important;
+}
+
+.copyright-right{
+    color: inherit;
+    text-decoration: none;
+ }
+.img_thumnail{
+    width: 90%;
+    margin-top: 3em;
+    max-width: 450px;
+    max-height: 400px;
+}
+
+.thumnail_title{
+    margin-top: 4em;
+    font-weight: 600;
+    font-size: 2em;
+}
+.col-thumnailLr{
+    margin-left: -3em;
+}
+.con-daftar{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: auto;
+}
+
+@media screen and (max-width: 750px){
+    .owl-carousel {
+        width: 100%;
+    }
+    .owl-item{
+        margin-right: 0px;
+    }
+    .img-responsive{
+        left: 33%;
+    }
+    .item-owl.card.kata-mereka{
+        margin-left: 5px;
+        width: 97%;
+    }
+
+    .navbar-nav-right{
+        float: left;
+    }
+    .col-6.left{
+        width: auto;
+    }
+    
+    .col-6.right{
+        width: auto;
+    }
+
+    .col-4{
+        margin-bottom: 5px;
+        margin-right: 5px;
+    }
+
+    .w-100 {
+        padding: 15px;
+        height: 250px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .card-img-top{
+        height: 100px;
+    }
+    .modal-content{
+         margin: 15px; 
+     }
+     .detail-layanan{
+         display: none;
+     }
+     .btn{
+        padding: .275rem .55rem;
+     }
+     .navbar-light .navbar-toggler {
+        color: rgba(247, 231, 231, 0.55);
+     }
+     .img_profile{
+         display: none;
+     }
+     .copyright-right{
+        color: inherit;
+        text-decoration: none;
+        font-size: small;
+     }
+     .img_thumnail {
+        width: 100%;
+        margin-top: 1.5em;
+     }
+     .thumnail_title{
+        margin-top: 2.3em;
+        font-weight: 600;
+        font-size: 1.2em;
+    }
+    .col-thumnailLr{
+        margin-left: -1.8em;
+    }
+    footer{
+        margin-top: 20px;
+    }
+}
